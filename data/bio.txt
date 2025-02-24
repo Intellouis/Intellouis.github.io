@@ -1,0 +1,3 @@
+I am Penglin Cai, a senior undergraduate majoring in Artificial Intelligence at Yuanpei College, Peking University. I am a member of the Tong Class, an honorary pilot class in Artificial Intelligence founded by Prof. Song-Chun Zhu. 
+I will begin my Ph.D. studies since Fall 2025 supervised by Prof. Zongqing Lu, under the guidance of whom I have been honored to work on research since July 2022. 
+My research interests lie in Reinforcement Learning, Embodied AI, as well as the general agents acquiring skills and accomplishing tasks in the open world. 

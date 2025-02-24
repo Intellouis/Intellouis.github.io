@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Jon Barron</title>
+
+    <meta name="author" content="Penglin Cai">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Penglin Cai
+                </p>
+                <p>I am Penglin Cai, a senior undergraduate majoring in Artificial Intelligence at <a href="https://yuanpei.pku.edu.cn/">Yuanpei College</a>, <a href="https://pku.edu.cn/">Peking University</a>. I am a member of the <a href="https://tongclass.ac.cn/">Tong Class</a>, an honorary pilot class in Artificial Intelligence founded by Prof. <a href="https://zhusongchun.net/">Song-Chun Zhu</a>. 
+                </p>
+                <p>I will begin my Ph.D. studies since Fall 2025 supervised by Prof. <a href="https:z0ngqing.github.io/">Zongqing Lu</a>, under the guidance of whom I have been honored to work on research since July 2022. 
+                </p>
+                <p>My research interests lie in Reinforcement Learning, Embodied AI, as well as the general agents acquiring skills and accomplishing tasks in the open world. 
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="data/resume.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/bio.txt">Bio</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=kGyiuW8AAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/Intellouis/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/idendification_photo.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/idendification_photo.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Publications and Preprints</h2>
+                <p>
+                  I am interested in Reinforcement Learning, Embodied AI, as well as the general agents acquiring skills and accomplishing tasks in the open world. My past and on-going research problems vary from creative agents, offline model-based reinforcement learning, to applying pre-trained VLA models to dexterous robotic hands with new modalities.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+
+
+    <tr onmouseout="creative_stop()" onmouseover="creative_start()" bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='creative_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/creative_agents.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/creative_agents.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function creative_start() {
+            document.getElementById('creative_image').style.opacity = "1";
+          }
+
+          function creative_stop() {
+            document.getElementById('creative_image').style.opacity = "0";
+          }
+          creative_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2310.10021">
+			<span class="papertitle">Creative Agents: Empowering Agents with Imagination for Creative Tasks</span>
+        </a>
+        <br>
+        Chi Zhang*,
+				<strong>Penglin Cai*</strong>,
+        Yuhui Fu, 
+        Haoqi Yuan,
+        Zongqing Lu
+        <br>
+        <em>arXiv</em>, 2023
+        <br>
+        <a href="https://arxiv.org/abs/2310.10021">arXiv</a>
+        /
+        <a href="https://baai.org/l/AriLX">talk</a>
+        /
+        <a href="https://sites.google.com/view/creative-agents">project page</a>
+        /
+        <a href="https://github.com/PKU-RL/Creative-Agents">code</a>
+        /
+        <a href="https://mp.weixin.qq.com/s/HuhLX_mR9PNnP9U4IG9gVg">blog</a>
+        /
+        <a href="/data/creative_agents.bib">bibtex</a>
+        <p></p>
+        <p>
+          Creative tasks are challenging for open-ended agents, where the agent should give novel and diverse task solutions. We propose creative agents with the ability of imagination and introduce several variants in implementation. We benchmark creative tasks in the challenging open-world game Minecraft and propose novel evaluation metrics utilizing GPT-4V. Creative agents are the first AI agents accomplishing diverse building creation in Minecraft survival mode.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr onmouseout="plan4mc_stop()" onmouseover="plan4mc_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='plan4mc_image'><video  width=100% muted autoplay loop>
+          <source src="images/plan4mc.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/plan4mc.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function plan4mc_start() {
+            document.getElementById('plan4mc_image').style.opacity = "1";
+          }
+
+          function plan4mc_stop() {
+            document.getElementById('plan4mc_image').style.opacity = "0";
+          }
+          plan4mc_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://relight-to-reconstruct.github.io/">
+          <span class="papertitle">Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks</span>
+        </a>
+        <br>
+        Haoqi Yuan, Chi Zhang, Hongcheng Wang, Feiyang Xie,
+				<strong>Penglin Cai</strong>, 
+        Hao Dong, Zongqing Lu
+        <br>
+        <em>arXiv</em>, 2023
+        <br>
+        <a href="https://openreview.net/pdf?id=tTZVrnr45N">workshop paper</a>
+        /
+        <a href="https://arxiv.org/abs/2303.16563">arXiv</a>
+        /
+        <a href="https://sites.google.com/view/plan4mc">project page</a>
+        /
+        <a href="https://github.com/PKU-RL/Plan4MC">code</a>
+        /
+        <a href="/data/plan4mc.bib">bibtex</a>
+        /
+        <a href="https://mp.weixin.qq.com/s/EJtL9g0u2EO_IhggwgfZJg">blog</a>
+        <p></p>
+        <p>
+          Plan4MC is a multi-task agent in the open world Minecraft, solving long-horizon tasks via planning over basic skills. It acquire three types of fine-grained basic skills through reinforcement learning without demonstrations. With a skill graph pre-generated by the Large Language Model, the skill search algorithm plans and interactively selects policies to solve complicated tasks. Plan4MC accomplishes 40 diverse tasks in Minecraft and unlocks Iron Pickaxe in the Tech Tree.
+        </p>
+      </td>
+    </tr>
+
+
+
+
+
+
+
+          </tbody></table>
+
+          <!-- 杂项 -->
+
+					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+            <tr>
+              <td>
+                <h2>Miscellanea</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #aaba9e;">
+								 <h2>Invited Talks</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                <a href="https://baai.org/l/AriLX">Creative Agents: Empowering Agents with Imagination for Creative Tasks, December 2023</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #c6b89e;">
+								 <h2>Academic Services</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                Reviewer, Open-World Agents workshop @ NeurIPS 2024
+                <br>
+                Reviewer, Foundation Models for Decision Making workshop @ NeurIPS 2023  
+              </td>
+            </tr>
+						
+           
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #edd892;">
+								 <h2>Awards and Scholarships</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                Zheng Geru Outstanding Student Scholarship, Peking University, 2023-2024 Academic Year
+                <br>
+                Merit Student, Peking University, 2023-2024 Academic Year
+                <br>
+                The Third Prize of Peking University Scholarship, Peking University, 2022-2023 Academic Year
+                <br>
+                Award for Academic Excellents, Peking University, 2022-2023 Academic Year
+                <br>
+                The First Prize of Freshman Scholarship, Peking University, Fall 2021
+              </td>
+            </tr>
+            
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  The template of this website is borrowed from <a href="https://github.com/jonbarron/jonbarron_website">this website</a>. 
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
